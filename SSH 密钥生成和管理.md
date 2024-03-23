@@ -1,3 +1,12 @@
+---
+loop: true
+autoSlideStoppable: false
+autoSlide: 10000
+transition: fade
+slideNumber: false
+enableTimeBar: true
+timeForPresentation: 100
+---
 
 
 **生成 SSH 密钥**： 
