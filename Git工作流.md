@@ -47,7 +47,17 @@ Untracked files: # 未追踪文件
 ## from 工作区 to 缓存区
 1. 工作区 to 暂存区
 `$ git add FileName.md
-`
+
+`$ git commit FileName.md`
+
+在vim中编辑并退出
+
+
+
+
+
+
+
 
 
 
