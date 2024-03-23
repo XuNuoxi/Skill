@@ -100,6 +100,9 @@ $ git branch
 * main
 ```
 
+
+---
+
 `git checkout develop `
 
 
