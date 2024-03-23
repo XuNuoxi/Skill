@@ -53,6 +53,9 @@ Untracked files: # 未追踪文件
 
 在vim中编辑并退出
 
+---
+
+
 > 附：快速提交并添加说明
 
 `$ git commit FileName.md -m "commit instructions"`
@@ -76,7 +79,7 @@ Date:   Sat Mar 23 19:44:03 2024 +0800
 ---
 
 ### 添加忽略文件
-`touch .gitignore`
+`$ touch .gitignore`
 
 编辑 .gitignore文件
 
@@ -87,7 +90,7 @@ Date:   Sat Mar 23 19:44:03 2024 +0800
 
 ---
 
-### 创建工作分支并查看
+### 创建 查看 切换 工作分支
 
 `$ git branch develop`
 
@@ -100,10 +103,10 @@ $ git branch
 * main
 ```
 
+`git checkout develop `
 
 ---
 
-`git checkout develop `
 
 
 
