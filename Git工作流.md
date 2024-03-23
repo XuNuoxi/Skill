@@ -13,7 +13,7 @@ timeForPresentation: 100
 
 
 ---
-## 用户设置
+### 用户设置
 Open the working directory
 
 %% 打开工作目录 %%
@@ -27,7 +27,7 @@ Open the working directory
 
 ---
 
-## 文件操作
+### 文件操作
 
 `$ echo "file content" > FileName.md`
 
@@ -44,7 +44,7 @@ Untracked files: # 未追踪文件
 ```
 
 ---
-## from 工作区 to 缓存区
+### from 工作区 to 缓存区
 1. 工作区 to 暂存区
 
 `$ git add FileName.md`
