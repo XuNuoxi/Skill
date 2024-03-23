@@ -103,10 +103,10 @@ $ git branch
 * main
 ```
 
+`git checkout develop `
 
 ---
 
-`git checkout develop `
 
 ---
 
