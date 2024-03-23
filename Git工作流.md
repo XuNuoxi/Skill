@@ -13,7 +13,7 @@ timeForPresentation: 100
 
 
 ---
-## 用户设置
+### 用户设置
 Open the working directory
 
 %% 打开工作目录 %%
@@ -27,7 +27,7 @@ Open the working directory
 
 ---
 
-## 文件操作
+### 文件操作
 
 `$ echo "file content" > FileName.md`
 
@@ -44,20 +44,63 @@ Untracked files: # 未追踪文件
 ```
 
 ---
-## from 工作区 to 缓存区
+### from 工作区 to 缓存区
 1. 工作区 to 暂存区
-`$ git add FileName.md
+
+`$ git add FileName.md`
 
 `$ git commit FileName.md`
 
 在vim中编辑并退出
 
+> 附：快速提交并添加说明
+
+`$ git commit FileName.md -m "commit instructions"`
+
+%% 提交说明 %%
+
+---
+
+### 查看提交日志
+
+`$ git log`
+
+```shell
+commit d86f441f47ba2788c8493a12573396dfd42dbcaf (HEAD -> main)
+Author: YourName  <YourEmail>
+Date:   Sat Mar 23 19:44:03 2024 +0800
+
+    版本2
+```
+
+---
+
+### 添加忽略文件
+`touch .gitignore`
+
+编辑 .gitignore文件
+
+例：
+```
+.obsidian
+```
+
+---
+
+### 创建工作分支并查看
+
+`$ git branch develop`
 
 
+`$ git branch`
 
+```Bash
+$ git branch
+  develop
+* main
+```
 
-
-
+`git checkout develop `
 
 
 
