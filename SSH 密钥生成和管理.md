@@ -30,6 +30,6 @@ timeForPresentation: 100
 
 ---
 
-通过以上步骤，你就可以在 Windows 上设置和使用 SSH 密钥与 GitHub 进行安全的连接。
+you can in Windows set and use SSH 密钥与 GitHub to save conect。
 
 
